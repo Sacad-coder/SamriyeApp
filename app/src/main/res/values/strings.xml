@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">samriyeApp</string>
+    <string name="welcome_to_city_u_app">Welcome to City U App</string>
+    <string name="be_the_leader_of_tomorrow">be the leader of tomorrow.</string>
+    <string name="your_choice_your_opportuniy_your_future">Your Choice, Your Opportunity, Your future</string>
+    <string name="hello_welcome_back">Hello Welcome back</string>
+    <string name="sing_in">Sign in</string>
+    <string name="username">StudentID</string>
+    <string name="Password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="LogIN">LogIN</string>
+    <string name="new_user_sign_up">New USer? Register Here</string>
+    <string name="profile_icon">Profile Icon</string>
+    <string name="welcome">Welcome</string>
+    <string name="register_here">Register Here</string>
+    <string name="full_name">Full Name</string>
+    <string name="studentid">StudentID</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email address</string>
+    <string name="already_joined_sing_in_here">Already joined? Sing In Here</string>
+    <string name="register">Register</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="city_u_mobile_app">City U Mobile App</string>
+    <string name="announcements">Announcements</string>
+    <string name="cgpa_and_gpa_calulator">CGPA and GPA calulator</string>
+    <string name="my_dashboard">My Dashboard</string>
+    <string name="Portal">Student Portal</string>
+    <string name="Exams">Exams</string>
+    <string name="courses">Courses</string>
+    <string name="attendance">Attendance</string>
+    <string name="cityu_lms">CityU LMS</string>
+    <string name="student_portal">Student Portal</string>
+</resources>

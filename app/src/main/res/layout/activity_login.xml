@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ff0000"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+   <ImageView
+       android:id="@+id/login_logo"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:src="@drawable/cityulogo__"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:fontFamily="@font/cardo"
+       android:text="@string/hello_welcome_back"
+       android:textColor="#000"
+       android:textSize="36sp"
+       android:layout_marginBottom="10dp"/>
+   <TextView
+       android:id="@+id/Slogan_name"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/sing_in"
+       android:textSize="35sp"
+       android:textColor="#000"
+       android:fontFamily="@font/cardo"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+       android:layout_marginBottom="20dp"
+       android:orientation="vertical">
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/Username"
+          android:hint="@string/username"
+          app:boxStrokeColor="@color/black"
+          android:textColorHint="@color/black"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:inputType="number"/>
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:boxStrokeColor="@color/black"
+          android:id="@+id/password"
+          android:hint="@string/Password"
+          android:textColorHint="@color/black"
+          app:passwordToggleEnabled="true"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+      </com.google.android.material.textfield.TextInputLayout>
+
+
+      <Button
+          android:id="@+id/forgot_password"
+          android:layout_width="220dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="end|right"
+          android:layout_marginTop="7dp"
+          android:background="#00000000"
+          android:elevation="0dp"
+          android:fontFamily="@font/cardo"
+          android:text="@string/forgot_password"
+          android:textColor="#000"/>
+
+
+      <Button
+          android:id="@+id/sign_in"
+          android:layout_width="138dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="100dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginBottom="5dp"
+          android:background="#000"
+          android:fontFamily="@font/cormorant_garamond_bold_italic"
+          android:text="@string/LogIN"
+          android:textColor="#000" />
+
+      <Button
+          android:id="@+id/register_button"
+          android:layout_width="247dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginStart="0dp"
+          android:layout_marginTop="4dp"
+          android:background="#ffffff00"
+          android:elevation="0dp"
+          android:fontFamily="@font/cardo"
+          android:text="@string/new_user_sign_up"
+          android:textColor="#000"
+          android:textSize="14sp" />
+
+
+   </LinearLayout>
+
+</LinearLayout>
+
+
+
+

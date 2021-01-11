@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "394168791891",
+    "firebase_url": "https://samriyeapp.firebaseio.com",
+    "project_id": "samriyeapp",
+    "storage_bucket": "samriyeapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394168791891:android:ce86bfc7b229cca98ca7a6",
+        "android_client_info": {
+          "package_name": "com.example.samriyeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394168791891-2vghuterj9o4kirf116ljhnatm2jjs65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaJi1hjPrU0tJ7anUlHfLg2pN_GrZvpM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394168791891-2vghuterj9o4kirf116ljhnatm2jjs65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
