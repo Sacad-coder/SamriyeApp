@@ -36,6 +36,14 @@ public class SingUp extends AppCompatActivity {
        LogIN  = findViewById(R.id.sign_in);
        LoginHere = findViewById(R.id.LoginHere);
 
+        LoginHere.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SingUp.this,Login.class);
+                startActivity(intent);
+            }
+        });
+
        Register.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {

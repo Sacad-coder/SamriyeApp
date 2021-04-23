@@ -95,7 +95,7 @@
           android:textColor="#000" />
 
       <Button
-          android:id="@+id/register_button"
+          android:id="@+id/NewUser"
           android:layout_width="247dp"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
@@ -104,7 +104,7 @@
           android:background="#ffffff00"
           android:elevation="0dp"
           android:fontFamily="@font/cardo"
-          android:text="@string/new_user_sign_up"
+          android:text="New User? SIgn Up here"
           android:textColor="#000"
           android:textSize="14sp" />
 

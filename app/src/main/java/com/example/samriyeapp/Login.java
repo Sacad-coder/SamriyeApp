@@ -13,6 +13,7 @@ import com.google.android.gms.common.api.internal.RegisterListenerMethod;
 public class Login extends AppCompatActivity {
 
     Button LOGIN;
+    Button NewUser;
 
 
     @Override
@@ -22,6 +23,16 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         LOGIN  = findViewById(R.id.sign_in);
+        NewUser = findViewById(R.id.NewUser);
+
+        NewUser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Login.this,SingUp.class);
+                startActivity(intent);
+            }
+        });
+
 
 
         LOGIN.setOnClickListener(new View.OnClickListener() {

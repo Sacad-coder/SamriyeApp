@@ -136,7 +136,9 @@
         android:layout_height="wrap_content"
         android:text="@string/already_joined_sing_in_here"
         android:textColor="#000"
-        android:background="#00000000"/>
+        android:background="#0000FF"
+        android:cursorVisible="true"
+        />
 
 
 
